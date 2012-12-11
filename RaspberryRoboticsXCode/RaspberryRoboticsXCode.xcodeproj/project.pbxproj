@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136BF5A1167724F7007DA061 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136BF5A0167724F7007DA061 /* main.cpp */; };
+		136BF5A3167724F7007DA061 /* RaspberryRoboticsXCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 136BF5A2167724F7007DA061 /* RaspberryRoboticsXCode.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		136BF59A167724F7007DA061 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				136BF5A3167724F7007DA061 /* RaspberryRoboticsXCode.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		136BF59C167724F7007DA061 /* RaspberryRoboticsXCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RaspberryRoboticsXCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		136BF5A0167724F7007DA061 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		136BF5A2167724F7007DA061 /* RaspberryRoboticsXCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RaspberryRoboticsXCode.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136BF599167724F7007DA061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		136BF591167724F7007DA061 = {
+			isa = PBXGroup;
+			children = (
+				136BF59F167724F7007DA061 /* RaspberryRoboticsXCode */,
+				136BF59D167724F7007DA061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		136BF59D167724F7007DA061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				136BF59C167724F7007DA061 /* RaspberryRoboticsXCode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136BF59F167724F7007DA061 /* RaspberryRoboticsXCode */ = {
+			isa = PBXGroup;
+			children = (
+				136BF5A0167724F7007DA061 /* main.cpp */,
+				136BF5A2167724F7007DA061 /* RaspberryRoboticsXCode.1 */,
+			);
+			path = RaspberryRoboticsXCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		136BF59B167724F7007DA061 /* RaspberryRoboticsXCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136BF5A6167724F7007DA061 /* Build configuration list for PBXNativeTarget "RaspberryRoboticsXCode" */;
+			buildPhases = (
+				136BF598167724F7007DA061 /* Sources */,
+				136BF599167724F7007DA061 /* Frameworks */,
+				136BF59A167724F7007DA061 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaspberryRoboticsXCode;
+			productName = RaspberryRoboticsXCode;
+			productReference = 136BF59C167724F7007DA061 /* RaspberryRoboticsXCode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136BF593167724F7007DA061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Richard Dominguez";
+			};
+			buildConfigurationList = 136BF596167724F7007DA061 /* Build configuration list for PBXProject "RaspberryRoboticsXCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 136BF591167724F7007DA061;
+			productRefGroup = 136BF59D167724F7007DA061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				136BF59B167724F7007DA061 /* RaspberryRoboticsXCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		136BF598167724F7007DA061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136BF5A1167724F7007DA061 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		136BF5A4167724F7007DA061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		136BF5A5167724F7007DA061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		136BF5A7167724F7007DA061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		136BF5A8167724F7007DA061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136BF596167724F7007DA061 /* Build configuration list for PBXProject "RaspberryRoboticsXCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136BF5A4167724F7007DA061 /* Debug */,
+				136BF5A5167724F7007DA061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136BF5A6167724F7007DA061 /* Build configuration list for PBXNativeTarget "RaspberryRoboticsXCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136BF5A7167724F7007DA061 /* Debug */,
+				136BF5A8167724F7007DA061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 136BF593167724F7007DA061 /* Project object */;
+}
